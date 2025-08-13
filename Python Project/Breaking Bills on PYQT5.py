@@ -1,8 +1,8 @@
 import sys
-from PyQt5.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QLabel, 
+from PyQt5.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QLabel,  # pyright: ignore[reportMissingImports]
                              QPushButton, QLineEdit, QTextEdit, QMessageBox, 
                              QWidget, QHBoxLayout)
-from PyQt5.QtGui import QPalette, QColor
+from PyQt5.QtGui import QPalette, QColor # pyright: ignore[reportMissingImports]
 
 class MainWindow(QMainWindow):
     def __init__(self):
